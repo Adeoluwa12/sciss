@@ -42,7 +42,7 @@ module.exports.urlController = {
     const uniqueId = shortid.generate();
 
     // Construct the short URL
-    const baseShortUrl = 'https://sciss.pantheon.io'; // Replace with your domain name
+    const baseShortUrl = 'https://sciss.deploybot.com'; // Replace with your domain name
     const newShortUrl = `${baseShortUrl}${uniqueId}`;
 
     // Generate QR code for the short URL
